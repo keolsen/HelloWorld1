@@ -14,10 +14,10 @@ Rectangle {
         id: mouseArea1
         anchors.fill: parent
         onClicked: {
-            textField1.text = qsTr("Clicked")
+            textField1.text = qsTr("Clicked: Entering")
         }
         onPressAndHold: {
-            textField1.text = qsTr("PressAndHold")
+            textField1.text = qsTr("PressAndHold: Entering")
         }
     }
 }
